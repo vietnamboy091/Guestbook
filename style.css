@@ -1,0 +1,228 @@
+/* Schriftart einfügen */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+/* Schriftart für alles festlegen und abstände weg machen*/
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Body und Html */
+body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Nav Area */
+.nav-area{
+    width: 100%;
+    background-color: rgb(24, 19, 19);
+}
+/* Liste der Nav */
+ul{
+    text-align: center;
+}
+/* Listen Element der Nav */
+li{
+    list-style: none;
+    display: inline-block;  
+    color: rgb(255, 106, 0);
+    font-size: 30px;
+    padding-left: 5px;
+}
+/* Link der Liste */
+li a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 35px;
+}
+/* Unsername in der Nav */
+.user{
+    text-decoration: underline;
+    color: rgb(255, 106, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    float: right;
+}
+/* Link hover Effekt */
+li a:hover{
+    color: rgb(255, 106, 0);
+    letter-spacing: 2px;
+    transition: 1s;
+}
+/* Banner */
+.banner{
+    background-image: url(halo.mp4);
+    background-size: cover;
+    background-position: relative;
+    height: 600px;
+}
+/* Banner Inhalt */
+.banner-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(42, 42, 42, 0.9);
+    position: relative;
+    margin-top: 5%;
+}
+/* Banner Schrift */
+.banner .contact{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(4, 4, 95);
+}
+/* Schrift Hintergrund */
+.banner .contact .back{
+    padding: 30px;
+    background-color: rgb(255, 106, 0);
+}
+/* Dunkles Abteil */
+.dark{
+    background-color: rgb(24, 19, 19);    
+    height: 350px;
+}
+/* Jeder Text auf dunklem Abteil */
+.text-dark{
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(240, 240, 240);
+
+}
+/* Überschrift */
+.text-dark h1{
+    font-size: 60px;
+    color: rgb(235, 105, 12);
+    border-bottom: solid rgba(255, 106, 0, 0.63);
+    border-width: 4px;
+}
+/* Text */
+.text-dark p{
+    font-size: 40px;
+}
+/* Content Abteilung */
+.content{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+/* Content div */
+.content_table{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 19, 19);
+}
+/* Content Tabelle */
+.content_inhalt{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    width: 70%;
+}
+/* Tabellen Inputs */
+.content_inhalt input{
+    margin-top: 5%;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(58, 46, 46);
+    border: none;
+}
+/* Tabellen Überschrift */
+.content_inhalt h1{
+    color: white;
+    letter-spacing: 1px;
+}
+/* Tabellen Knöpfe */
+.content_inhalt .sub{
+    color: white;
+    background-color: rgb(255, 106, 0);
+    padding: 20px;
+}
+/* Knöpfe Hover Effekt */
+.content_inhalt .sub:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 0.5s;
+}
+/* Links zu den Fragen */
+.links{
+    text-align: left;
+    font-size: 30px;
+    width: 90%;
+    background-color: rgb(58, 46, 46);
+    padding: 5px;
+}
+/* Links Hover Effekt */
+.links:hover{
+    background-color: rgb(94, 75, 75);
+}
+/* Username der Fragenersteller */
+.username{
+    font-size: 30px;
+    padding-right: 30px;
+}
+/* Text der Tabelle */
+.content_inhalt p{
+    color: white;
+}
+/* Tabellen Knöpfe */
+.content_inhalt .btn{
+    color: white;
+    background-color: rgb(255, 106, 0);
+    padding: 20px;
+    font-size: 30px;
+}
+/* Hover Effekt Tabellen Knöpfe */
+.content_inhalt .btn:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 0.5s;
+}
+/* Message Input */
+.message{
+    width: 400px;
+    height: 200px;
+}
+/* Fragen Links */
+.frage_link{
+    color: rgb(255, 106, 0);
+    text-decoration: none;
+}
+/* Suchen Input */
+.suchen {
+    display: none;
+}
+/* Fragen Input */
+.frage{
+    text-align: left;
+    background-color: #018790;
+    padding: 5px;
+}
+/* Frage Input Hover */
+.frage:hover{
+    background-color: #0A516D;
+}
+/* Senden Knopf */
+td .send{
+    background-color: rgb(255, 106, 0);
+}
+/* Hover Effekt */
+td .send:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 0.5s;
+}
+/* Überschriften */
+.oben{
+    color: rgb(255, 106, 0);
+    letter-spacing: 1px;
+}
+
+
